@@ -1,0 +1,62 @@
+/* ========== RESET ========== */
+* {
+  margin: 0
+  box-sizing; border: box 1px;
+}
+
+/* ========== BODY ========== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #7a605b;
+  background-color: #1792d5;
+  padding: 1rem;
+}
+.biopic {
+  width: 500px;
+}
+.Samples {
+  width: 500px;
+}
+
+/* ========== HEADINGS ========== */
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+/* ========== LINKS ========== */
+a {
+  color: #00090e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #F8C8DC;
+  text-decoration: underline;
+}
+
+/* ========== NAVIGATION ========== */
+nav {
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav li {
+  display: inline;
+}
+
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #eb79c3;
+}
